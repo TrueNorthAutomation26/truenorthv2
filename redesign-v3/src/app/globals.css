@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0F3D5F;
+  --color-navy-dark: #0A2A42;
+  --color-navy-deep: #071D2F;
+  --color-teal: #0EA5E9;
+  --color-teal-dark: #0284C7;
+  --color-teal-light: #38BDF8;
+  --color-gold: #FBBF24;
+  --color-error: #EF4444;
+  --color-success: #10B981;
+  --color-light-bg: #F8FAFC;
+
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #0F172A;
+    background: #ffffff;
+  }
+
+  ::selection {
+    background: #0EA5E9;
+    color: white;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, #0EA5E9, #38BDF8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .bg-navy-gradient {
+    background: linear-gradient(180deg, #0A2A42 0%, #071D2F 100%);
+  }
+
+  .bg-hero-gradient {
+    background: linear-gradient(135deg, #071D2F 0%, #0A2A42 40%, #0F3D5F 100%);
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  .glass-card-light {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  }
+
+  .dot-pattern {
+    background-image: radial-gradient(circle, rgba(14, 165, 233, 0.15) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  .dot-pattern-light {
+    background-image: radial-gradient(circle, rgba(15, 61, 95, 0.06) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  /* Slow-drifting aurora glow for hero / dark sections */
+  .aurora {
+    background: radial-gradient(40% 50% at 50% 50%, rgba(14, 165, 233, 0.18) 0%, transparent 70%);
+    animation: aurora-drift 18s ease-in-out infinite alternate;
+    will-change: transform, opacity;
+  }
+  .aurora-2 {
+    background: radial-gradient(40% 50% at 50% 50%, rgba(56, 189, 248, 0.12) 0%, transparent 70%);
+    animation: aurora-drift 22s ease-in-out infinite alternate-reverse;
+    will-change: transform, opacity;
+  }
+
+  @keyframes aurora-drift {
+    0%   { transform: translate(0, 0) scale(1);      opacity: 0.7; }
+    50%  { transform: translate(6%, -4%) scale(1.15); opacity: 1; }
+    100% { transform: translate(-5%, 5%) scale(1.05); opacity: 0.6; }
+  }
+
+  /* Soft shimmer sweep used on key CTAs */
+  .shimmer {
+    position: relative;
+    overflow: hidden;
+  }
+  .shimmer::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, 0.25) 50%, transparent 70%);
+    transform: translateX(-120%);
+    animation: shimmer-sweep 5s ease-in-out infinite;
+  }
+  @keyframes shimmer-sweep {
+    0%, 60% { transform: translateX(-120%); }
+    100%    { transform: translateX(120%); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .aurora, .aurora-2, .shimmer::after { animation: none; }
+  }
+}
