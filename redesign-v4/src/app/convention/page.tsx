@@ -67,11 +67,11 @@ export default function ConventionPage() {
             <AnimateIn>
               <img
                 src="/logo-white.png"
-                alt="True North Automation"
+                alt="TrueNorth ServiceFlow AI"
                 className="h-28 w-auto mb-4"
               />
               <h1 className="text-xl font-bold text-white tracking-tight">
-                True North Automation
+                TrueNorth ServiceFlow AI
               </h1>
             </AnimateIn>
 

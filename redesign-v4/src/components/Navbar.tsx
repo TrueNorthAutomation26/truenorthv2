@@ -42,7 +42,7 @@ export function Navbar() {
             <Link href="/" className="flex items-center group lg:flex-none flex-1 justify-center lg:justify-start">
               <img
                 src="/logo-white.png"
-                alt="True North Automation"
+                alt="TrueNorth ServiceFlow AI"
                 className="h-36 w-auto transition-all duration-300"
               />
             </Link>

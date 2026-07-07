@@ -449,7 +449,7 @@ export default function HomePage() {
                     <Check className="w-5 h-5 text-teal" />
                   </div>
                   <h3 className="text-lg font-bold text-navy-dark">
-                    WITH TRUE NORTH RUNNING
+                    WITH TRUENORTH SERVICEFLOW RUNNING
                   </h3>
                 </div>
                 <div className="space-y-4">

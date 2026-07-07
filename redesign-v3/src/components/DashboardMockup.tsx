@@ -4,7 +4,7 @@ import { motion, useInView } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
 /* ────────────────────────────────────────────────────────────
-   Faithful recreation of the real True North Client Portal
+   Faithful recreation of the real TrueNorth ServiceFlow Client Portal
    (ai-media-agent.vercel.app/client/dashboard), shown with
    realistic active-client data for the marketing site.
    ──────────────────────────────────────────────────────────── */
@@ -88,7 +88,7 @@ export function DashboardMockup({ className = "" }: { className?: string }) {
         </div>
         <div className="flex-1 flex justify-center">
           <span className="text-[11px] text-slate-400 font-mono bg-white border border-slate-200 rounded-md px-3 py-1">
-            app.truenorthautomation.ai/client/dashboard
+            app.truenorthserviceflow.ai/client/dashboard
           </span>
         </div>
       </div>

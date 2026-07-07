@@ -8,7 +8,7 @@ import { Calculator, TrendingUp } from "lucide-react";
 /**
  * ROI Calculator — lets visitors plug in their numbers and see
  * (a) revenue lost to missed calls annually
- * (b) revenue recovered if True North captures 50% of those calls
+ * (b) revenue recovered if TrueNorth ServiceFlow captures 50% of those calls
  *
  * Defaults are tuned for Atlantic Canadian trades (the ICP):
  *   avg job value = $500
@@ -29,7 +29,7 @@ export function RoiCalculator() {
     const lostJobsPerYear = missedCallsPerYear * 0.4;
     const annualLossRaw = lostJobsPerYear * avgJobValue;
 
-    // If True North picks up the phone, conservative assumption: we
+    // If TrueNorth ServiceFlow picks up the phone, conservative assumption: we
     // recover 50% of the currently-lost revenue.
     const recoveredRaw = annualLossRaw * 0.5;
 

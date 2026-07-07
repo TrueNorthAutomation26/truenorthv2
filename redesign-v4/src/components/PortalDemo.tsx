@@ -489,7 +489,7 @@ export function PortalDemo() {
         </div>
         <div className="flex-1 text-center">
           <span className="font-mono text-xs text-white/30">
-            true north automation &middot; one evening, automated
+            truenorth serviceflow ai &middot; one evening, automated
           </span>
         </div>
         <button

@@ -48,7 +48,7 @@ export function Footer() {
               <div className="mb-6">
                 <img
                   src="/logo-white.png"
-                  alt="True North Automation"
+                  alt="TrueNorth ServiceFlow AI"
                   className="h-40 w-auto"
                 />
               </div>
@@ -64,24 +64,24 @@ export function Footer() {
                   +1 (902) 316-0111
                 </a>
                 <a
-                  href="mailto:fabian@truenorthautomation.ai"
+                  href="mailto:fabian@truenorthserviceflow.ai"
                   className="flex items-center gap-3 text-sm text-white/60 hover:text-teal transition-colors cursor-pointer"
                 >
                   <Mail className="w-4 h-4" />
-                  fabian@truenorthautomation.ai
+                  fabian@truenorthserviceflow.ai
                 </a>
                 <div className="flex items-center gap-3 text-sm text-white/60">
                   <MapPin className="w-4 h-4 shrink-0" />
                   Charlottetown, PEI, Canada
                 </div>
                 <a
-                  href="https://truenorthautomation.ai"
+                  href="https://truenorthserviceflow.ai"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-sm text-white/60 hover:text-teal transition-colors cursor-pointer"
                 >
                   <Globe className="w-4 h-4" />
-                  truenorthautomation.ai
+                  truenorthserviceflow.ai
                 </a>
               </div>
             </div>
@@ -130,7 +130,7 @@ export function Footer() {
         <div className="border-t border-white/10">
           <div className="max-w-7xl mx-auto px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-xs text-white/40">
-              &copy; {new Date().getFullYear()} True North Automation. All
+              &copy; {new Date().getFullYear()} TrueNorth ServiceFlow AI. All
               rights reserved.
             </p>
             <div className="flex items-center gap-5 text-xs text-white/40">

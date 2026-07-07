@@ -100,18 +100,18 @@ export default function ContactPage() {
                       </a>
 
                       <a
-                        href="mailto:fabian@truenorthautomation.ai"
+                        href="mailto:fabian@truenorthserviceflow.ai"
                         className="group grid grid-cols-[6.5rem_1fr] items-baseline gap-4 py-5 border-t border-white/10 text-white/70 hover:text-teal-light transition-colors cursor-pointer"
                       >
                         <p className="font-mono text-xs tracking-[0.25em] uppercase text-white/40">Email</p>
                         <p className="font-semibold flex items-center gap-3">
                           <Mail className="w-4 h-4 text-white/30 group-hover:text-teal-light transition-colors shrink-0" />
-                          fabian@truenorthautomation.ai
+                          fabian@truenorthserviceflow.ai
                         </p>
                       </a>
 
                       <a
-                        href="https://truenorthautomation.ai"
+                        href="https://truenorthserviceflow.ai"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="group grid grid-cols-[6.5rem_1fr] items-baseline gap-4 py-5 border-t border-white/10 text-white/70 hover:text-teal-light transition-colors cursor-pointer"
@@ -119,7 +119,7 @@ export default function ContactPage() {
                         <p className="font-mono text-xs tracking-[0.25em] uppercase text-white/40">Website</p>
                         <p className="font-semibold flex items-center gap-3">
                           <Globe className="w-4 h-4 text-white/30 group-hover:text-teal-light transition-colors shrink-0" />
-                          truenorthautomation.ai
+                          truenorthserviceflow.ai
                         </p>
                       </a>
 

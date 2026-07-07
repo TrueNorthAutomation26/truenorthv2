@@ -26,7 +26,7 @@ export default function TermsPage() {
           </AnimateIn>
           <AnimateIn delay={0.35}>
             <p className="mt-6 text-lg text-white/60 leading-relaxed max-w-2xl mx-auto">
-              The rules for using truenorthautomation.ai and the services we
+              The rules for using truenorthserviceflow.ai and the services we
               provide.
             </p>
             <p className="mt-3 text-sm text-white/40">
@@ -47,10 +47,10 @@ export default function TermsPage() {
               <Section title="1. Agreement">
                 <p>
                   These Terms of Service (&ldquo;Terms&rdquo;) form a binding
-                  agreement between you and True North Automation Inc.
-                  (&ldquo;True North Automation,&rdquo; &ldquo;we,&rdquo;
+                  agreement between you and TrueNorth ServiceFlow AI Inc.
+                  (&ldquo;TrueNorth ServiceFlow AI,&rdquo; &ldquo;we,&rdquo;
                   &ldquo;our,&rdquo; or &ldquo;us&rdquo;) and govern your access
-                  to and use of truenorthautomation.ai and the automation
+                  to and use of truenorthserviceflow.ai and the automation
                   services we provide (the &ldquo;Services&rdquo;). By using the
                   Services, you agree to these Terms. If you do not agree, do
                   not use the Services.
@@ -59,7 +59,7 @@ export default function TermsPage() {
 
               <Section title="2. The Services">
                 <p>
-                  True North Automation builds and operates AI-powered
+                  TrueNorth ServiceFlow AI builds and operates AI-powered
                   automations for small and mid-sized businesses, including
                   call response, lead follow-up, content publishing, review
                   management, scheduling, and related workflow automation. The
@@ -81,10 +81,10 @@ export default function TermsPage() {
                   credentials confidential and for all activity on your
                   account. Notify us immediately at{" "}
                   <a
-                    href="mailto:fabian@truenorthautomation.ai"
+                    href="mailto:fabian@truenorthserviceflow.ai"
                     className="text-teal hover:text-teal-dark font-medium underline-offset-2 hover:underline"
                   >
-                    fabian@truenorthautomation.ai
+                    fabian@truenorthserviceflow.ai
                   </a>{" "}
                   if you believe your account has been compromised.
                 </p>
@@ -169,8 +169,7 @@ export default function TermsPage() {
                 <p>
                   The Services, including the website, software, prompts,
                   workflows, documentation, branding, and other materials we
-                  produce (excluding Customer Content), are owned by True North
-                  Automation or our licensors and are protected by intellectual
+                  produce (excluding Customer Content), are owned by TrueNorth ServiceFlow AI or our licensors and are protected by intellectual
                   property laws. We grant you a limited, non-transferable,
                   non-exclusive right to use the Services during your
                   subscription. You may not copy, reverse-engineer, resell, or
@@ -209,7 +208,7 @@ export default function TermsPage() {
 
               <Section title="11. Limitation of liability">
                 <p>
-                  TO THE MAXIMUM EXTENT PERMITTED BY LAW, TRUE NORTH AUTOMATION
+                  TO THE MAXIMUM EXTENT PERMITTED BY LAW, TRUENORTH SERVICEFLOW AI
                   AND ITS DIRECTORS, OFFICERS, EMPLOYEES, AND AGENTS WILL NOT
                   BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
                   CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR FOR LOST PROFITS,
@@ -228,8 +227,7 @@ export default function TermsPage() {
 
               <Section title="12. Indemnification">
                 <p>
-                  You agree to defend, indemnify, and hold harmless True North
-                  Automation from any claim, liability, damage, loss, or
+                  You agree to defend, indemnify, and hold harmless TrueNorth ServiceFlow AI from any claim, liability, damage, loss, or
                   expense (including reasonable legal fees) arising out of (a)
                   your Customer Content, (b) your use of the Services in
                   violation of these Terms or applicable law, or (c) your
@@ -277,15 +275,15 @@ export default function TermsPage() {
                 <p>If you have questions about these Terms, contact:</p>
                 <div className="mt-4 p-5 rounded-xl bg-light-bg border border-gray-100">
                   <p className="font-semibold text-navy-dark">
-                    True North Automation Inc.
+                    TrueNorth ServiceFlow AI Inc.
                   </p>
                   <p>Charlottetown, Prince Edward Island, Canada</p>
                   <p className="mt-2">
                     <a
-                      href="mailto:fabian@truenorthautomation.ai"
+                      href="mailto:fabian@truenorthserviceflow.ai"
                       className="text-teal hover:text-teal-dark font-medium underline-offset-2 hover:underline"
                     >
-                      fabian@truenorthautomation.ai
+                      fabian@truenorthserviceflow.ai
                     </a>
                   </p>
                   <p>+1 (902) 316-0111</p>

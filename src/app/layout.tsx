@@ -3,7 +3,7 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "True North Automation | AI Systems for Atlantic Canadian Businesses",
+  title: "TrueNorth ServiceFlow AI | AI Systems for Atlantic Canadian Businesses",
   description:
     "We build AI systems that handle calls, content, leads, and reviews for Atlantic Canadian businesses — so you can focus on the work that pays.",
   keywords: [

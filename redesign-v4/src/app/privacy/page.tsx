@@ -45,7 +45,7 @@ export default function PrivacyPage() {
           <AnimateIn delay={0.35}>
             <div className="mt-6 flex flex-wrap items-end justify-between gap-x-12 gap-y-4">
               <p className="text-lg text-white/60 leading-relaxed max-w-2xl">
-                How True North Automation collects, uses, and protects your information.
+                How TrueNorth ServiceFlow AI collects, uses, and protects your information.
               </p>
               <p className="font-mono text-xs tracking-[0.25em] uppercase text-white/40">
                 Last updated: {LAST_UPDATED}
@@ -90,30 +90,30 @@ export default function PrivacyPage() {
               <article className="space-y-12 text-white/60 leading-relaxed">
                 <Section index="01" id="introduction" title="1. Introduction">
                   <p>
-                    True North Automation Inc. (&ldquo;True North Automation,&rdquo;
+                    TrueNorth ServiceFlow AI Inc. (&ldquo;TrueNorth ServiceFlow AI,&rdquo;
                     &ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) operates
-                    truenorthautomation.ai and provides AI automation services to
+                    truenorthserviceflow.ai and provides AI automation services to
                     small and mid-sized businesses, primarily in Atlantic Canada.
                     This Privacy Policy explains what information we collect when
                     you use our website and services, how we use it, who we share
                     it with, and the choices you have.
                   </p>
                   <p>
-                    By using truenorthautomation.ai or any of our services, you
+                    By using truenorthserviceflow.ai or any of our services, you
                     agree to the practices described in this policy.
                   </p>
                 </Section>
 
                 <Section index="02" id="who-we-are" title="2. Who we are">
                   <p>
-                    True North Automation Inc. is a Canadian company based in
+                    TrueNorth ServiceFlow AI Inc. is a Canadian company based in
                     Charlottetown, Prince Edward Island, Canada. You can reach us
                     at{" "}
                     <a
-                      href="mailto:fabian@truenorthautomation.ai"
+                      href="mailto:fabian@truenorthserviceflow.ai"
                       className="text-teal-light hover:text-teal font-medium underline-offset-2 hover:underline"
                     >
-                      fabian@truenorthautomation.ai
+                      fabian@truenorthserviceflow.ai
                     </a>
                     .
                   </p>
@@ -183,7 +183,7 @@ export default function PrivacyPage() {
                     <strong className="text-white">
                       Limited Use disclosure.
                     </strong>{" "}
-                    True North Automation&rsquo;s use and transfer of information
+                    TrueNorth ServiceFlow AI&rsquo;s use and transfer of information
                     received from Google APIs to any other app will adhere to the{" "}
                     <a
                       href="https://developers.google.com/terms/api-services-user-data-policy"
@@ -279,7 +279,7 @@ export default function PrivacyPage() {
                       <strong className="text-white">Legal &amp; safety.</strong>{" "}
                       To comply with a valid legal request, enforce our
                       agreements, or protect the rights, property, or safety of
-                      True North Automation, our customers, or the public.
+                      TrueNorth ServiceFlow AI, our customers, or the public.
                     </li>
                     <li>
                       <strong className="text-white">Business transfers.</strong>{" "}
@@ -308,10 +308,10 @@ export default function PrivacyPage() {
                     hold about you, and to withdraw consent for processing. To
                     exercise any of these rights, email us at{" "}
                     <a
-                      href="mailto:fabian@truenorthautomation.ai"
+                      href="mailto:fabian@truenorthserviceflow.ai"
                       className="text-teal-light hover:text-teal font-medium underline-offset-2 hover:underline"
                     >
-                      fabian@truenorthautomation.ai
+                      fabian@truenorthserviceflow.ai
                     </a>
                     . We will respond within a reasonable timeframe.
                   </p>
@@ -364,15 +364,15 @@ export default function PrivacyPage() {
                   <p>If you have any questions about this Privacy Policy, contact:</p>
                   <div className="mt-4 p-5 rounded-xl bg-white/5 border border-white/10">
                     <p className="font-semibold text-white">
-                      True North Automation Inc.
+                      TrueNorth ServiceFlow AI Inc.
                     </p>
                     <p>Charlottetown, Prince Edward Island, Canada</p>
                     <p className="mt-2">
                       <a
-                        href="mailto:fabian@truenorthautomation.ai"
+                        href="mailto:fabian@truenorthserviceflow.ai"
                         className="text-teal-light hover:text-teal font-medium underline-offset-2 hover:underline"
                       >
-                        fabian@truenorthautomation.ai
+                        fabian@truenorthserviceflow.ai
                       </a>
                     </p>
                     <p>+1 (902) 316-0111</p>

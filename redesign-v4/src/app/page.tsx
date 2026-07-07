@@ -429,7 +429,7 @@ export default function HomePage() {
                 </AnimateIn>
                 <AnimateIn delay={0.2}>
                   <p className="mt-6 text-lg text-gray-500 leading-relaxed max-w-lg">
-                    Every call answered, every review requested, every lead followed up — tracked in the client portal every True North customer gets, checkable from your phone.
+                    Every call answered, every review requested, every lead followed up — tracked in the client portal every TrueNorth ServiceFlow customer gets, checkable from your phone.
                   </p>
                 </AnimateIn>
                 <AnimateIn delay={0.3}>
@@ -509,7 +509,7 @@ export default function HomePage() {
                       <Check className="w-5 h-5 text-teal-light" />
                     </div>
                     <h3 className="font-mono text-sm tracking-[0.2em] text-white/70">
-                      WITH TRUE NORTH RUNNING
+                      WITH TRUENORTH SERVICEFLOW RUNNING
                     </h3>
                   </div>
                   <div className="space-y-5">

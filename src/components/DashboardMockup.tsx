@@ -83,7 +83,7 @@ export function DashboardMockup({ className = "" }: { className?: string }) {
         </div>
         <div className="flex-1 text-center">
           <span className="text-xs text-white/30 font-mono">
-            dashboard.truenorthautomation.ai
+            dashboard.truenorthserviceflow.ai
           </span>
         </div>
       </div>

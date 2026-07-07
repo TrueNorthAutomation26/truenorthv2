@@ -98,7 +98,7 @@ export default function ContactPage() {
                   </a>
 
                   <a
-                    href="mailto:fabian@truenorthautomation.ai"
+                    href="mailto:fabian@truenorthserviceflow.ai"
                     className="flex items-center gap-4 text-white/70 hover:text-teal transition-colors group cursor-pointer"
                   >
                     <div className="w-12 h-12 rounded-xl glass-card flex items-center justify-center group-hover:bg-teal/20 transition-colors">
@@ -107,13 +107,13 @@ export default function ContactPage() {
                     <div>
                       <p className="text-sm text-white/40">Email</p>
                       <p className="font-semibold">
-                        fabian@truenorthautomation.ai
+                        fabian@truenorthserviceflow.ai
                       </p>
                     </div>
                   </a>
 
                   <a
-                    href="https://truenorthautomation.ai"
+                    href="https://truenorthserviceflow.ai"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-4 text-white/70 hover:text-teal transition-colors group cursor-pointer"
@@ -123,7 +123,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <p className="text-sm text-white/40">Website</p>
-                      <p className="font-semibold">truenorthautomation.ai</p>
+                      <p className="font-semibold">truenorthserviceflow.ai</p>
                     </div>
                   </a>
 
